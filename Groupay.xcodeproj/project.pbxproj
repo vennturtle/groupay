@@ -14,11 +14,11 @@
 		E41E40D11F85A70200F0BB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41E40CF1F85A70200F0BB66 /* LaunchScreen.storyboard */; };
 		E41E40DC1F85A70200F0BB66 /* GroupayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40DB1F85A70200F0BB66 /* GroupayTests.swift */; };
 		E41E40E71F85A70200F0BB66 /* GroupayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40E61F85A70200F0BB66 /* GroupayUITests.swift */; };
-		E41E40F51F85A73500F0BB66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40F41F85A73500F0BB66 /* User.swift */; };
 		E41E40F71F85A77300F0BB66 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40F61F85A77300F0BB66 /* Group.swift */; };
-		E41E40F91F85A79400F0BB66 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40F81F85A79400F0BB66 /* Fund.swift */; };
-		E41E40FB1F85A7B400F0BB66 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40FA1F85A7B400F0BB66 /* Event.swift */; };
-		E41E40FD1F85A81200F0BB66 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40FC1F85A81200F0BB66 /* Expense.swift */; };
+		E41E41021F88639500F0BB66 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40FE1F88639500F0BB66 /* Event.swift */; };
+		E41E41031F88639500F0BB66 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40FF1F88639500F0BB66 /* Expense.swift */; };
+		E41E41041F88639500F0BB66 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41001F88639500F0BB66 /* Fund.swift */; };
+		E41E41051F88639500F0BB66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41011F88639500F0BB66 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		E41E40E21F85A70200F0BB66 /* GroupayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41E40E61F85A70200F0BB66 /* GroupayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupayUITests.swift; sourceTree = "<group>"; };
 		E41E40E81F85A70200F0BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E41E40F41F85A73500F0BB66 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		E41E40F61F85A77300F0BB66 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
-		E41E40F81F85A79400F0BB66 /* Fund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fund.swift; path = ../Fund.swift; sourceTree = "<group>"; };
-		E41E40FA1F85A7B400F0BB66 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
-		E41E40FC1F85A81200F0BB66 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = ../Expense.swift; sourceTree = "<group>"; };
+		E41E40FE1F88639500F0BB66 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E41E40FF1F88639500F0BB66 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		E41E41001F88639500F0BB66 /* Fund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
+		E41E41011F88639500F0BB66 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,11 @@
 		E41E40C51F85A70100F0BB66 /* Groupay */ = {
 			isa = PBXGroup;
 			children = (
-				E41E40F81F85A79400F0BB66 /* Fund.swift */,
-				E41E40FC1F85A81200F0BB66 /* Expense.swift */,
-				E41E40FA1F85A7B400F0BB66 /* Event.swift */,
+				E41E40FE1F88639500F0BB66 /* Event.swift */,
+				E41E40FF1F88639500F0BB66 /* Expense.swift */,
+				E41E41001F88639500F0BB66 /* Fund.swift */,
+				E41E41011F88639500F0BB66 /* User.swift */,
 				E41E40F61F85A77300F0BB66 /* Group.swift */,
-				E41E40F41F85A73500F0BB66 /* User.swift */,
 				E41E40C61F85A70100F0BB66 /* AppDelegate.swift */,
 				E41E40C81F85A70200F0BB66 /* ViewController.swift */,
 				E41E40CA1F85A70200F0BB66 /* Main.storyboard */,
@@ -277,13 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41E40FD1F85A81200F0BB66 /* Expense.swift in Sources */,
+				E41E41041F88639500F0BB66 /* Fund.swift in Sources */,
+				E41E41021F88639500F0BB66 /* Event.swift in Sources */,
 				E41E40C91F85A70200F0BB66 /* ViewController.swift in Sources */,
 				E41E40C71F85A70100F0BB66 /* AppDelegate.swift in Sources */,
-				E41E40F51F85A73500F0BB66 /* User.swift in Sources */,
 				E41E40F71F85A77300F0BB66 /* Group.swift in Sources */,
-				E41E40FB1F85A7B400F0BB66 /* Event.swift in Sources */,
-				E41E40F91F85A79400F0BB66 /* Fund.swift in Sources */,
+				E41E41031F88639500F0BB66 /* Expense.swift in Sources */,
+				E41E41051F88639500F0BB66 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +536,7 @@
 				E41E40ED1F85A70200F0BB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41E40EE1F85A70200F0BB66 /* Build configuration list for PBXNativeTarget "GroupayTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				E41E40F01F85A70200F0BB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41E40F11F85A70200F0BB66 /* Build configuration list for PBXNativeTarget "GroupayUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				E41E40F31F85A70200F0BB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
