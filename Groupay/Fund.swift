@@ -15,7 +15,7 @@ class Fund {
     private var donors: [(donor: User, amount: Double)] = []
     private var fundingGoal: (goal: Double, current: Double, reason: String)?
     
-    init(acct: PKPaymentPass){
+    init(_ acct: PKPaymentPass){
         self.acct = acct
     }
     

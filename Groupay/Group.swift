@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import PassKit
 
 class Group {
     private var name: String
@@ -27,8 +28,8 @@ class Group {
         fund = Fund(fundAccount)
     }
     
-    convenience init(name: String, owner: User){
-        self.init(name: name, owner: owner, treasurer: owner)
+    convenience init(name: String, owner: User, fundAccount: PKPaymentPass){
+        self.init(name: name, owner: owner, treasurer: owner, fundAccount: fundAccound)
     }
     
     public func join(member: User){
