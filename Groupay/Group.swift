@@ -29,7 +29,7 @@ class Group {
     }
     
     convenience init(name: String, owner: User, fundAccount: PKPaymentPass){
-        self.init(name: name, owner: owner, treasurer: owner, fundAccount: fundAccound)
+        self.init(name: name, owner: owner, treasurer: owner, fundAccount: fundAccount)
     }
     
     public func join(member: User){

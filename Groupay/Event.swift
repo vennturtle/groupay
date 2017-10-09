@@ -26,15 +26,19 @@ class Event {
     private var expenses: [Expense] = []
     
     init(title: String, description: String, group: Group, fund: Fund){
+        self.title = title
+        self.description = description
         self.group = group
         self.fund = fund
         mode = .publicFund
     }
     
     init(title: String, description: String, group: Group, accountPayable: PKPaymentPass, isParticipantFund: Bool){
+        self.title = title
+        self.description = description
         self.group = group
         fund = Fund(accountPayable)
-        mode = (isParticipantFund ? PaymentType.participantFund : PaymentType.adhoc)
+        mode = (isParticipantFund ? PaymentType.participantFund : PaymentType.adHoc)
     }
     
     // if event is not open, only group members can use this
@@ -54,10 +58,7 @@ class Event {
     
     // only treasurer can use this
     public func settleFinances(){
-        switch(mode){
-        case .publicFund:
-            fund.setGoal(amount: totalCost, reason: title)
-        }
+        fund.setGoal(amount: totalCost, reason: title)
     }
     
     // only owner can use this
