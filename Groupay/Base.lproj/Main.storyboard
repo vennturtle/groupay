@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u3G-lw-8NE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u3G-lw-8NE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,12 +28,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AX-x9-4xC">
+                                <rect key="frame" x="167" y="502" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="40w-WM-LxR" kind="popoverPresentation" popoverAnchorView="0AX-x9-4xC" id="pYL-2X-p84">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <segue destination="40w-WM-LxR" kind="presentation" id="uXs-39-Xvp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,11 +62,21 @@
                                 <rect key="frame" x="146" y="318" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="SignUp"/>
+                                <connections>
+                                    <segue destination="kDf-9O-s1b" kind="popoverPresentation" popoverAnchorView="bhn-ql-lpK" id="da0-64-Nxp">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQ6-T6-dtX">
                                 <rect key="frame" x="146" y="259" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="jQ6-T6-dtX" id="QuP-fo-Q8I">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOME PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJh-BK-Ozx">
                                 <rect key="frame" x="123" y="97" width="96" height="139"/>
@@ -72,11 +89,6 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="J9z-0R-Y6o"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="Ec5-mN-TFE"/>
-                        <segue destination="kDf-9O-s1b" kind="show" id="dhb-NH-Lro"/>
-                        <segue destination="40w-WM-LxR" kind="presentation" id="Ir9-zG-zBu"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FhU-wV-GbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,21 +113,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF0-Fw-xMC">
+                                <rect key="frame" x="167" y="551" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="40w-WM-LxR" kind="popoverPresentation" popoverAnchorView="WF0-Fw-xMC" id="c0X-hx-xga">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="40w-WM-LxR" kind="presentation" id="6rg-jb-TLk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBR-75-3PO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116" y="705"/>
         </scene>
-        <!--Dash Board View Controller-->
+        <!--Home Page View Controller-->
         <scene sceneID="Y6P-wi-TzB">
             <objects>
-                <viewController id="40w-WM-LxR" customClass="DashBoardViewController" customModule="Groupay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="40w-WM-LxR" customClass="HomePageViewController" customModule="Groupay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V5z-gr-FuS"/>
                         <viewControllerLayoutGuide type="bottom" id="N6L-w2-pGc"/>
@@ -124,20 +143,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOME PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhi-Wy-tUA">
-                                <rect key="frame" x="89" y="245" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SvR-QH-Uqi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N6L-w2-pGc" firstAttribute="top" secondItem="SvR-QH-Uqi" secondAttribute="bottom" id="8XF-Um-8D9"/>
+                            <constraint firstAttribute="trailing" secondItem="SvR-QH-Uqi" secondAttribute="trailing" id="BKk-dG-sk7"/>
+                            <constraint firstItem="SvR-QH-Uqi" firstAttribute="leading" secondItem="ibc-o3-v5u" secondAttribute="leading" id="giR-yd-8Zy"/>
+                            <constraint firstItem="SvR-QH-Uqi" firstAttribute="top" secondItem="ibc-o3-v5u" secondAttribute="top" id="yY9-qk-dkA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="SvR-QH-Uqi" id="d9w-iv-w4w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwF-KC-LHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="284"/>
+            <point key="canvasLocation" x="1076" y="283.80809595202402"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dHx-Bm-LAZ">
@@ -157,6 +181,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6rg-jb-TLk"/>
+        <segue reference="c0X-hx-xga"/>
     </inferredMetricsTieBreakers>
 </document>
