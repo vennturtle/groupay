@@ -16,7 +16,7 @@
 
 import UIKit
 
-class DashBoardViewController: UIViewController {
+class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +28,8 @@ class DashBoardViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    @IBAction func unwindLogout(segue: UIStoryboardSegue){
+        
+    }
 }
 

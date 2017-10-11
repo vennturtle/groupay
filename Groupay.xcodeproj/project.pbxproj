@@ -19,7 +19,7 @@
 		E41E41031F88639500F0BB66 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E40FF1F88639500F0BB66 /* Expense.swift */; };
 		E41E41041F88639500F0BB66 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41001F88639500F0BB66 /* Fund.swift */; };
 		E41E41051F88639500F0BB66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41011F88639500F0BB66 /* User.swift */; };
-		E41E410A1F8870EF00F0BB66 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41061F8870EF00F0BB66 /* DashBoardViewController.swift */; };
+		E41E410A1F8870EF00F0BB66 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41061F8870EF00F0BB66 /* LogInViewController.swift */; };
 		E41E410B1F8870EF00F0BB66 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41071F8870EF00F0BB66 /* HomePageViewController.swift */; };
 		E41E410C1F8870EF00F0BB66 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41081F8870EF00F0BB66 /* SignInViewController.swift */; };
 		E41E410D1F8870EF00F0BB66 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E41091F8870EF00F0BB66 /* SignUpViewController.swift */; };
@@ -61,7 +61,7 @@
 		E41E40FF1F88639500F0BB66 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		E41E41001F88639500F0BB66 /* Fund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
 		E41E41011F88639500F0BB66 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E41E41061F8870EF00F0BB66 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		E41E41061F8870EF00F0BB66 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		E41E41071F8870EF00F0BB66 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E41E41081F8870EF00F0BB66 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		E41E41091F8870EF00F0BB66 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		E41E40C51F85A70100F0BB66 /* Groupay */ = {
 			isa = PBXGroup;
 			children = (
-				E41E41061F8870EF00F0BB66 /* DashBoardViewController.swift */,
+				E41E41061F8870EF00F0BB66 /* LogInViewController.swift */,
 				E41E41071F8870EF00F0BB66 /* HomePageViewController.swift */,
 				E41E41081F8870EF00F0BB66 /* SignInViewController.swift */,
 				E41E41091F8870EF00F0BB66 /* SignUpViewController.swift */,
@@ -299,7 +299,7 @@
 				E41E41031F88639500F0BB66 /* Expense.swift in Sources */,
 				E41E41051F88639500F0BB66 /* User.swift in Sources */,
 				E41E410C1F8870EF00F0BB66 /* SignInViewController.swift in Sources */,
-				E41E410A1F8870EF00F0BB66 /* DashBoardViewController.swift in Sources */,
+				E41E410A1F8870EF00F0BB66 /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
